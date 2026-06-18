@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>あしあと プライバシーポリシー</title>
+<style>
+  :root { color-scheme: light; }
+  body {
+    font-family: -apple-system, "Hiragino Kaku Gothic ProN", "Yu Gothic", Meiryo, sans-serif;
+    line-height: 1.85;
+    color: #2b2b2b;
+    background: #faf7f0;
+    margin: 0;
+    padding: 0;
+  }
+  .wrap { max-width: 760px; margin: 0 auto; padding: 40px 22px 80px; }
+  h1 { font-size: 1.7rem; margin-bottom: 0.2em; }
+  h2 { font-size: 1.2rem; margin-top: 2em; border-bottom: 2px solid #e0d8c4; padding-bottom: 0.3em; }
+  .meta { color: #7a7060; font-size: 0.92rem; margin-bottom: 2em; }
+  table { border-collapse: collapse; width: 100%; margin: 1em 0; font-size: 0.95rem; }
+  th, td { border: 1px solid #ddd4c0; padding: 8px 10px; text-align: left; vertical-align: top; }
+  th { background: #f0ead9; }
+  a { color: #8a5a2b; }
+  code { background: #efe9da; padding: 1px 5px; border-radius: 4px; font-size: 0.9em; }
+  ul { padding-left: 1.3em; }
+  .note { background: #f3eddd; border-left: 4px solid #c8a96a; padding: 12px 16px; border-radius: 6px; margin: 1.5em 0; }
+  footer { margin-top: 3em; color: #8a8276; font-size: 0.88rem; }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<h1>あしあと プライバシーポリシー</h1>
+<p class="meta">最終更新日：2026年6月16日　／　提供者：あしあと</p>
+
+<p>
+本プライバシーポリシー（以下「本ポリシー」）は、iOS アプリ「あしあと」（以下「本アプリ」）における利用者の情報の取り扱いについて定めるものです。本アプリは、毎日の歩数で日本の旧街道を仮想的に旅するウォーキングアプリです。私たちは利用者のプライバシーを尊重し、必要最小限の情報のみを、明確な目的のために取り扱います。
+</p>
+
+<h2>1. 基本方針</h2>
+<ul>
+  <li>本アプリは、広告を表示せず、利用者の情報を広告目的で第三者に販売・提供しません。</li>
+  <li>「自分だけの記録」は利用者の端末内にのみ保存し、サーバーには送信しません。</li>
+  <li>友だちと共有する情報は、サーバー側のアクセス制御（行レベルセキュリティ）により、承認済みの友だち以外には提供されません。</li>
+  <li>位置情報・写真などの取得は、利用者が機能を使うときに iOS の許可を得たうえで行います。</li>
+</ul>
+
+<h2>2. 取得する情報と利用目的</h2>
+<table>
+  <tr><th>情報の種類</th><th>利用目的</th><th>保存先</th></tr>
+  <tr>
+    <td>歩数・歩行距離（HealthKit）</td>
+    <td>街道の旅の進捗や記録への反映</td>
+    <td>端末内（旅の進捗）。歩数の数値自体はサーバーに保存しません。</td>
+  </tr>
+  <tr>
+    <td>モーション（歩行ペース）</td>
+    <td>散歩中の歩数をリアルタイム表示するため</td>
+    <td>端末内のみ</td>
+  </tr>
+  <tr>
+    <td>位置情報（利用中のみ）</td>
+    <td>近くの名所スポットの表示、発見した場所の記録・共有</td>
+    <td>共有投稿に含めた場合のみサーバーに保存。詳細は第3項。</td>
+  </tr>
+  <tr>
+    <td>カメラ・写真</td>
+    <td>発見した場所を写真で残す・友だちと共有するため</td>
+    <td>共有した写真のみサーバー（非公開ストレージ）に保存。撮影時に位置メタデータ（EXIF）は除去します。</td>
+  </tr>
+  <tr>
+    <td>Apple アカウント（Sign in with Apple）</td>
+    <td>友だち・共有などの社会機能で本人を識別するため</td>
+    <td>認証基盤に保存。メールアドレスは保存しません（Apple の非公開メール中継に対応）。本名は公開表示名に自動で使用しません。</td>
+  </tr>
+  <tr>
+    <td>プロフィール（表示名・アイコン・招待コード）</td>
+    <td>友だちに表示する名前と、友だち追加のため</td>
+    <td>サーバーに保存。表示名は利用者が自由に設定でき、初期値は「旅人」です。</td>
+  </tr>
+  <tr>
+    <td>共有した投稿（位置・写真・ひとこと・クイズ）</td>
+    <td>承認済みの友だちと発見を共有するため</td>
+    <td>サーバーに保存。友だち以外には提供されません。</td>
+  </tr>
+  <tr>
+    <td>友だち関係・いいね・クイズ回答・通報</td>
+    <td>社会機能の動作および不適切な投稿への対応のため</td>
+    <td>サーバーに保存</td>
+  </tr>
+</table>
+
+<h2>3. 位置情報の取り扱い</h2>
+<ul>
+  <li>位置情報は、本アプリを利用している間にのみ取得します（常時取得は行いません）。</li>
+  <li>発見を友だちと共有する際、位置の公開精度を「正確な現在地」または「だいたい（市区町村）」から選べます。「だいたい」を選んだ場合は、市区町村の代表地点に丸めて共有し、正確な居場所はわかりません。</li>
+  <li>「守りたい場所（自宅など）」を登録すると、その付近で投稿する場合は自動的に「だいたい（市区町村）」に切り替わります。登録した場所の情報は<strong>端末内にのみ保存</strong>され、サーバーには送信しません。</li>
+  <li>共有投稿の写真は、撮影・選択時に再エンコードして位置メタデータ（EXIF/GPS）を除去します。</li>
+</ul>
+
+<h2>4. 情報の共有範囲</h2>
+<p>
+共有した投稿（位置・写真・コメント等）は、サーバー側のアクセス制御により、<strong>あなたが承認した友だちのみ</strong>が閲覧できます。友だちでない利用者・申請中の相手・ブロックした相手には、サーバーがそもそもデータを返しません。不特定多数への全体公開は、本ポリシー最終更新時点では行っていません。
+</p>
+
+<h2>5. 第三者サービス</h2>
+<p>本アプリは、機能の提供のために以下の外部サービスを利用します。</p>
+<ul>
+  <li><strong>Apple（HealthKit / Sign in with Apple / iCloud・CloudKit）</strong>：歩数の取得、本人確認、一部機能（仲間と歩く）のデータ同期に使用します。</li>
+  <li><strong>Supabase</strong>：友だち・共有・いいね・クイズ・通報などのデータを保存するサーバー基盤として使用します。</li>
+</ul>
+<p>各サービスの取り扱いは、それぞれの提供者のプライバシーポリシーに従います。</p>
+
+<h2>6. 情報の保存期間と削除</h2>
+<ul>
+  <li>共有した投稿は、利用者が削除するか、アカウントを削除するまで保存されます。</li>
+  <li>「自分だけの記録」は端末内にあり、アプリを削除すると失われます。</li>
+  <li>アカウントおよび関連データの削除をご希望の場合は、第8項の連絡先までご連絡ください。本人確認のうえ、合理的な期間内に削除します。</li>
+</ul>
+
+<h2>7. 子どものプライバシー</h2>
+<p>
+本アプリは、特定の年齢層を対象に個人情報を意図的に収集するものではありません。保護者の方で、お子様が情報を提供したことにお気づきの場合は、連絡先までお知らせください。
+</p>
+
+<h2>8. お問い合わせ</h2>
+<p>
+本ポリシーに関するお問い合わせ、データの削除のご依頼は、以下までご連絡ください。<br>
+メール：<a href="mailto:ino.30.tomohiro@gmail.com">ino.30.tomohiro@gmail.com</a>
+</p>
+
+<h2>9. 本ポリシーの変更</h2>
+<p>
+本ポリシーは、必要に応じて改定することがあります。重要な変更がある場合は、本アプリまたは本ページ上でお知らせします。改定後の本ポリシーは、本ページに掲載した時点から効力を生じます。
+</p>
+
+<footer>
+© 2026 あしあと. All rights reserved.
+</footer>
+
+</div>
+</body>
+</html>
